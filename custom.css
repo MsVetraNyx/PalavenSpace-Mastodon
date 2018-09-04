@@ -1,19 +1,18 @@
+/*Toot Button, desktop and mobile*/
   .button,
   .floating-action-button {
-    background-color: #f98f5b;    
+    background-color: #f98f5b;
     color: #223;
-  }",
+  }
   .button:hover,
   .button:focus,
   .button:active,
   .button:disabled {
-    background-color: #52e0a3;
+    background-color: #ff8143;
   }
-
   .ui {
     background-color: #223;
   }
-
   .drawer .drawer__header, .column-header, .column-icon {
     background-color: #223;
   }
@@ -31,8 +30,8 @@
     font-size: 20px !important;
     padding-bottom: 13px !important;
   }
-  .column-settings--outer, .column-settings--section, .setting-toggle {
-    background-color: #f98f5b;
+  .column-settings--outer, .column-header__button, .column-header__button.active, .column-settings--section, .setting-toggle {
+    background-color: #1E1E2D;
     color: #fff;
   }
   .setting-text,
@@ -53,7 +52,7 @@
   }
   .drawer .drawer__header a:hover {
     background-color: #223;
-    color: #fb747b;
+    color: #ff8143;
   }
 
   .search__input {
@@ -66,7 +65,7 @@
     background-color: #eee;
     color: #000;
   }
-
+/*Changed Elephant with Turian Fleet emblem*/
   .drawer__inner {
     background-color: #223;
   }
@@ -175,12 +174,15 @@
   .status__content .status__content__spoiler-link, .reply-indicator__content .status__content__spoiler-link {
     background: #29293d;"
 }
-  .autosuggest-textarea__suggestions {
-	background: #fff;
+.status.status-direct {
+    background: #2d2a38;
+}
+.autosuggest-textarea__suggestions {
+   background: #fff;
 }
   .autosuggest-textarea__suggestions__item:hover {
     background: #f98f5b;
-	color: #fff;
+  color: #fff;
 }
   .autosuggest-textarea__suggestions__item.selected {
     background: #f98f5b;
@@ -196,10 +198,10 @@ color: #fff
     color: #fff
 }
   .search__icon .fa {
-	color: #;
+  color: #;
 }",
   .detailed-status {
-	background: #223;
+  background: #223;
 }
   .account__header {
     -webkit-box-flex: 0;
@@ -212,41 +214,43 @@ color: #fff
     position: relative;
 }
   .account__header>div {
-	background: linear-gradient( to bottom, rgba(34, 34, 51, 0.10), #223);
+  background: linear-gradient( to bottom, rgba(34, 34, 51, 0.10), #223);
 }
 /*.icon-button.inverted {
-    color: #f98f5b /* Bouton photo + confiendalité */
+    color: #f98f5b /* Bouton photo + confiendalité 
 }*/
 .icon-button.inverted.active {
-    color: #f98f5b /* Couleur des icones quand tu appuies dessus */
+    color: #ff8143 /* Couleur des icones quand tu appuies dessus */
 }
  
 .icon-button.inverted:hover, .icon-button.inverted:active, .icon-button.inverted:focus {
-    color: #fb747b /* Couleur quand tu passes la souris sur les icones */
+    color: #ff8143 /* Couleur quand tu passes la souris sur les icones */
 }
 /*.compose-form__buttons {
     background: #29293d;
 } */
+.compose-form .compose-form__warning {
+  background: #1E1E2D;
+  color: #fff;
+}
 .text-icon-button.active {
-    color: #FFF;
+  color: #FFF;
 }
 .privacy-dropdown__option.active {
-	background: #f98f5b;
+  background: #f98f5b;
 }
 .privacy-dropdown__option:hover {
-	background: #f98f5b;
+  background: #f98f5b;
 }
 .privacy-dropdown__option.active:hover {
-	background: #f98f5b;
+  background: #f98f5b;
 }
 .column-header__button{
     background: #223;
-}
-.column-header__button.active, .column-header__button.active:hover{
-    background: #f98f5b;
+    color: #fff;
 }
 .column-header__collapsible-inner {
-    background: #f98f5b;
+    background: #1E1E2D;
     color: #fff !important;
 }
 .column-settings__section {
@@ -258,18 +262,25 @@ color: #fff
 .column-subheading{
     background: #223;
 }
-button.active .fa-retweet::after {
-    color: #37dc94;
-    content: \\f079\;
-}
-.icon-button:hover, .icon-button:focus, .icon-button:active, con-button.active {
+button.active .fa-retweet:after {
     color: #f98f5b;
+    content: "\f079";
 }
-.active .fa-star::before,
-.fa.fa-fw.fa-star.star-icon::before,
-.fa.fa-fw.fa-user-times {
-color: #f98f5b;
+button.icon-button.active i.fa-retweet {
+    background-image: none;
 }
+.active .fa-star:before,
+.fa.fa-fw.fa-star.star-icon:before {
+    content: "\f005";
+    color: #f5b12e;
+}
+.fa-star::before {
+  content: "\f006";
+}
+
+.icon-button:hover, .icon-button:focus, .icon-button:active, con-button.active, .fa.fa-fw.fa-user-times {
+    color: #f98f5b;
+  }
 .column-header__back-button {
     background: #223;
     color: #fff;
@@ -281,20 +292,23 @@ color: #f98f5b;
     color: #fff;
 }
 .button {
-	box-shadow: 0px 3px 5px rgba(0,0,0,0.5);
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.5);
     transition: box-shadow 0.1s ease-in-out;
-	transition: transform 0.1s ease-in-out
+  transition: transform 0.1s ease-in-out
   }
   .button:hover {
-	box-shadow: 0px 7px 15px rgba(0,0,0,0.5);
-	transform: scale(1.05);
+  box-shadow: 0px 7px 15px rgba(0,0,0,0.5);
+  transform: scale(1.05);
   }
   .button:focus,
   .button:active,
   .button:disabled {
-	box-shadow: 0px 2px 3px rgba(0,0,0,0.7);
-	transform: scale(0.93);
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.7);
+  transform: scale(0.93);
   }
+
+
+  /*Wider columns, with a bit of responsiveness*/
   body.app-body .column, body.app-body .column__wrapper {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 0px;
