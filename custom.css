@@ -60,11 +60,6 @@
     transition: all 200ms;
     color: #fff;
   }
-  .search__input:hover,
-  .search__input:focus {
-    background-color: #eee;
-    color: #000;
-  }
 /*Changed Elephant with Turian Fleet emblem*/
   .drawer__inner {
     background-color: #223;
@@ -75,6 +70,7 @@
   }
   .drawer__inner__mastodon img {
     content: url("https://s25.postimg.cc/czw8dgoi7/Turian_fleet_emblem-0.png");
+    filter: contrast(50%) brightness(50%);
   }
   .navigation-bar {
     color: #eee;
@@ -125,7 +121,14 @@
   .status__content a .fa:hover {
     color: #f98f5b;
   }
-
+  .attachment-list__list a {
+    color: #f98f5b;
+    opacity: 0.5;
+  }
+  .fa-chain:before, .fa-link:before {
+    color: #f98f5b;
+    opacity: 0.7;
+  }
   .status__content a,
   .reply-indicator__content a,
   .muted .status__content a,
@@ -226,15 +229,19 @@ color: #fff
 .icon-button.inverted:hover, .icon-button.inverted:active, .icon-button.inverted:focus {
     color: #ff8143 /* Couleur quand tu passes la souris sur les icones */
 }
+/*CW button*/
+.text-icon-button.active {
+    color: #ff8143;
+}
+.text-icon-button:hover {
+    color: #ff8143;
+}
 /*.compose-form__buttons {
     background: #29293d;
 } */
 .compose-form .compose-form__warning {
   background: #1E1E2D;
   color: #fff;
-}
-.text-icon-button.active {
-  color: #FFF;
 }
 .privacy-dropdown__option.active {
   background: #f98f5b;
