@@ -1,0 +1,354 @@
+/*Toot Button, desktop and mobile*/
+  .button,
+  .floating-action-button {
+    background-color: #a075ed;
+    color: #fff;
+  }
+  .button:hover,
+  .button:focus,
+  .button:active,
+  .button:disabled {
+    background-color: #9b63ff;
+  }
+  .ui {
+    background-color: #223;
+  }
+  .drawer .drawer__header, .column-header, .column-icon {
+    background-color: #223;
+  }
+  .column-icon {
+    color: #eee;
+    transition: all 200ms;
+  }
+  .column-icon:hover {
+    color: #fff;
+  }
+  .column-icon.collapsable {
+    background-color: #a075ed;
+    color: #fff;
+    font-size: 20px !important;
+    padding-bottom: 13px !important;
+  }
+  .column-settings--outer, .column-header__button, .column-header__button.active, .column-settings--section, .setting-toggle {
+    background-color: #1E1E2D;
+    color: #fff;
+  }
+  .setting-text,
+  .setting-text:hover,
+  .setting-text:focus {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+  }
+  .react-toggle--checked .react-toggle-track, .react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {",
+    background-color: #223;
+  }
+  .react-toggle--checked .react-toggle-thumb {
+    border-color: #223;
+  }
+
+  .drawer .drawer__header .drawer__tab {
+    color: #a075ed;
+  }
+  .drawer .drawer__header a:hover {
+    background-color: #223;
+    color: #9b63ff;
+  }
+
+  .search__input {
+    background-color: #223;
+    transition: all 200ms;
+    color: #fff;
+  }
+/*Changed Elephant with Turian Fleet emblem*/
+  .drawer__inner {
+    background-color: #223;
+  }
+  .drawer__inner__mastodon {  
+    background: none;
+    background-color: #223;
+  }
+  .drawer__inner__mastodon img {
+    content: url("https://s25.postimg.cc/oalkg632n/Turian_fleet_emblem-purplepng.png");
+    filter: contrast(50%) brightness(50%);
+  }
+  .navigation-bar {
+    color: #eee;
+  }
+  .navigation-bar strong {
+    font-size: 14px;
+    margin-top: 2px;
+  }
+
+  .search-results__header {
+    background-color: #223;
+    color: #eee;
+    text-transform: capitalize;
+  }
+  .drawer__inner.darker {
+    background-color: #223;
+  }
+  .account__display-name {
+    outline: none;
+  }
+  .display-name span {
+    color: #ddd;
+  }
+  .icon-button:hover,
+  .icon-button:focus,
+  .icon-button:active,
+  .icon-button.active {
+    color: #fff
+  }
+
+  .status__prepend,
+  .status,
+  .detailed-status,
+  .column>.scrollable {
+    background-color: #223;
+    color: #fff;
+    border-bottom: 0;
+  }
+  .notification__message {
+    color: #ccc;
+  }
+
+  .status .status__relative-time {
+    color: #ccc;
+  }
+
+  .status__content a .fa,
+  .status__content a .fa:hover {
+    color: #a075ed;
+  }
+  .attachment-list__list a {
+    color: #a075ed;
+    opacity: 0.5;
+  }
+  .fa-chain:before, .fa-link:before {
+    color: #a075ed;
+    opacity: 0.7;
+  }
+  .status__content a,
+  .reply-indicator__content a,
+  .muted .status__content a,
+  .account__header .account__header__username {
+    color: #a075ed;
+  }
+  .status__content__spoiler-link {
+    color: #a075ed;
+  }
+  .getting-started {
+    background: #212132;
+  }
+  .muted .status__display-name strong {
+    color: #ccc;
+  }
+
+  .status__prepend .status__display-name strong {
+    color: #fff;
+    outline: none;
+  }
+
+  .muted .status__content p {
+    color: #ccc;
+  }
+
+  .column-link, .column {
+    background-color: #223; 
+  }
+
+  .account__action-bar,
+  .account__action-bar__tab,
+  .detailed-status__action-bar {
+    border: 0;
+    background: #223;
+  }
+
+  .account {
+    border-bottom: 0;
+  }
+
+  .column-back-button {
+    background-color: #223;
+    color: #fff;
+  }
+
+  .status__content .status__content__spoiler-link, .reply-indicator__content .status__content__spoiler-link {
+    background: #29293d;"
+}
+.status.status-direct {
+    background: #2d2a38;
+}
+.autosuggest-textarea__suggestions {
+   background: #fff;
+}
+  .autosuggest-textarea__suggestions__item:hover {
+    background: #a075ed;
+  color: #fff;
+}
+  .autosuggest-textarea__suggestions__item.selected {
+    background: #a075ed;
+    color: #fff;
+}
+  .reply-indicator {
+    background: #29293d;
+}
+  .reply-indicator__content {
+color: #fff
+}
+.reply-indicator .reply-indicator__display-name {
+    color: #fff
+}
+  .search__icon .fa {
+  color: #;
+}",
+  .detailed-status {
+  background: #223;
+}
+  .account__header {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    background: #223;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+  .account__header>div {
+  background: linear-gradient( to bottom, rgba(34, 34, 51, 0.10), #223);
+}
+  .compose-form .compose-form__buttons-wrapper {
+    background: #313543;
+  }
+.icon-button.inverted, .text-icon-button, .compose-form .compose-form__buttons-wrapper .character-counter__wrapper .character-counter {
+    color: #fff /*Bouton photo + confiendalité */
+}
+.icon-button.inverted.active {
+    color: #9b63ff /* Couleur des icones quand tu appuies dessus */
+}
+ 
+.icon-button.inverted:hover, .icon-button.inverted:active, .icon-button.inverted:focus {
+    color: #9b63ff /* Couleur quand tu passes la souris sur les icones */
+}
+/*CW button*/
+.text-icon-button.active {
+    color: #9b63ff;
+}
+.text-icon-button:hover {
+    color: #9b63ff;
+}
+/*.compose-form__buttons {
+    background: #29293d;  
+} */
+.compose-form .compose-form__warning {
+  background: #1E1E2D;
+  color: #fff;
+}
+.privacy-dropdown__option.active {
+  background: #a075ed;
+}
+.privacy-dropdown__option:hover {
+  background: #a075ed;
+}
+.privacy-dropdown__option.active:hover {
+  background: #a075ed;
+}
+.actions-modal ul li:not(:empty) a.active, .actions-modal ul li:not(:empty) a.active button {
+  background: #a075ed;
+}
+.column-header__button{
+    background: #223;
+    color: #fff;
+}
+.column-header__collapsible-inner {
+    background: #1E1E2D;
+    color: #fff !important;
+}
+.column-settings__section {
+    color: #fff;
+}
+.setting-meta__label, .setting-toggle__label{
+    color: #fff;
+}
+.column-subheading{
+    background: #223;
+}
+button.active .fa-retweet:after {
+    color: #a075ed;
+    content: "\f079";
+}
+button.icon-button.active i.fa-retweet {
+    background-image: none;
+}
+.active .fa-star:before,
+.fa.fa-fw.fa-star.star-icon:before {
+    content: "\f005";
+    color: #f5b12e;
+}
+.fa-star::before {
+  content: "\f006";
+}
+
+.icon-button:hover, .icon-button:focus, .icon-button:active, con-button.active, .fa.fa-fw.fa-user-times {
+    color: #a075ed;
+  }
+.column-header__back-button {
+    background: #223;
+    color: #fff;
+}
+.column-header__back-button:hover {
+    color: #fff;
+}
+.column-header>.column-header__back-button {
+    color: #fff;
+}
+.button {
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.5);
+    transition: box-shadow 0.1s ease-in-out;
+  transition: transform 0.1s ease-in-out
+  }
+  .button:hover {
+  box-shadow: 0px 7px 15px rgba(0,0,0,0.5);
+  transform: scale(1.05);
+  }
+  .button:focus,
+  .button:active,
+  .button:disabled {
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.7);
+  transform: scale(0.93);
+  }
+
+
+  /*Wider columns, with a bit of responsiveness*/
+  body.app-body .column, body.app-body .column__wrapper {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 0px;
+    flex: 1 1 0;    
+    min-width: 330px;
+    max-width: 400px;
+}
+  .drawer {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 0px;
+    flex: 1 1 0;    
+    min-width: 330px;
+    max-width: 400px;
+}
+
+.tabs-bar__link.active {
+    border-bottom: 2px solid #a075ed;
+    color: #a075ed;
+}
+.tabs-bar__link {
+    border-bottom: transparent;
+}
+.tabs-bar {
+    background: #223;
+}
+.dropdown--active .emoji-button img, .emoji-button:active img, .emoji-button:focus img, .emoji-button:hover img {
+  content: url("https://s25.postimg.cc/clhks1c27/me_paragade.png");
+}
+.emoji-button img {
+  content: url("https://s25.postimg.cc/clhks1c27/me_paragade.png");
+}

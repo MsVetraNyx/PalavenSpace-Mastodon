@@ -16,7 +16,6 @@
   .drawer .drawer__header, .column-header, .column-icon {
     background-color: #223;
   }
-
   .column-icon {
     color: #eee;
     transition: all 200ms;
@@ -219,9 +218,12 @@ color: #fff
   .account__header>div {
   background: linear-gradient( to bottom, rgba(34, 34, 51, 0.10), #223);
 }
-/*.icon-button.inverted {
-    color: #f98f5b /* Bouton photo + confiendalité 
-}*/
+  .compose-form .compose-form__buttons-wrapper {
+    background: #313543;
+  }
+.icon-button.inverted, .text-icon-button, .compose-form .compose-form__buttons-wrapper .character-counter__wrapper .character-counter {
+    color: #fff /*Bouton photo + confiendalité */
+}
 .icon-button.inverted.active {
     color: #ff8143 /* Couleur des icones quand tu appuies dessus */
 }
@@ -237,7 +239,7 @@ color: #fff
     color: #ff8143;
 }
 /*.compose-form__buttons {
-    background: #29293d;
+    background: #29293d;  
 } */
 .compose-form .compose-form__warning {
   background: #1E1E2D;
@@ -250,6 +252,9 @@ color: #fff
   background: #f98f5b;
 }
 .privacy-dropdown__option.active:hover {
+  background: #f98f5b;
+}
+.actions-modal ul li:not(:empty) a.active, .actions-modal ul li:not(:empty) a.active button {
   background: #f98f5b;
 }
 .column-header__button{
@@ -293,7 +298,7 @@ button.icon-button.active i.fa-retweet {
     color: #fff;
 }
 .column-header__back-button:hover {
-    color: #52e0a3;
+    color: #fff;
 }
 .column-header>.column-header__back-button {
     color: #fff;
@@ -340,4 +345,10 @@ button.icon-button.active i.fa-retweet {
 }
 .tabs-bar {
     background: #223;
+}
+.dropdown--active .emoji-button img, .emoji-button:active img, .emoji-button:focus img, .emoji-button:hover img {
+  content: url("https://s25.postimg.cc/clhks1c27/me_paragade.png");
+}
+.emoji-button img {
+  content: url("https://s25.postimg.cc/clhks1c27/me_paragade.png");
 }
