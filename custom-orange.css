@@ -1,8 +1,33 @@
+/*
+  Extranet Palaven main theme (Orange edition)
+
+  Based on Flat, Dark and Colourful (https://userstyles.org/styles/140852/mastodon-flat-dark-and-colourful) by Diamand le Fou
+  Itself based on KindlyFire personal theme (https://gist.github.com/KindlyFire/f54fbf7fc343bfca1595df2f59e362bb)
+
+  Heavily modified and fixed by Vetra Nyx (@Vetra@extranet.palaven.space)
+
+  Last update: 05 september 2018
+
+  DISCLAIMER:
+  The theme might be pretty, but this place is a mess.
+  Three people have worked on this file. And each one has added stuf as he or she needed it. This file is not optimised or pretty to look at.
+  The initial creator didn't comment anything, the second one added french comments (they're still there, untranslated), and I added one or two comments in English, but that's it.
+  Who knows. Maybe one day I'll clean it? /s
+
+  If you are here to change the main color, use a decent text editor, and use the Find and replace tool. That'll be easier for you.
+
+  Colors codes for the ORANGE theme:
+  Main:       #f98f5b
+  Secondary:  #ff8143
+  
+  Fleet emblem link: https://s25.postimg.cc/czw8dgoi7/Turian_fleet_emblem-0.png
+*/
+
 /*Toot Button, desktop and mobile*/
   .button,
   .floating-action-button {
     background-color: #f98f5b;
-    color: #223;
+    color: #fff;
   }
   .button:hover,
   .button:focus,
@@ -140,6 +165,10 @@
   .getting-started {
     background: #212132;
   }
+  .getting-started__footer a {
+    color: #f98f5b;
+    opacity: 0.7;
+}
   .muted .status__display-name strong {
     color: #ccc;
   }
@@ -289,6 +318,9 @@ button.icon-button.active i.fa-retweet {
 .fa-star::before {
   content: "\f006";
 }
+.detailed-status__link .fa-star::before, .column-link__icon.fa-star::before {
+  content: "\f005";
+}
 
 .icon-button:hover, .icon-button:focus, .icon-button:active, con-button.active, .fa.fa-fw.fa-user-times {
     color: #f98f5b;
@@ -346,9 +378,17 @@ button.icon-button.active i.fa-retweet {
 .tabs-bar {
     background: #223;
 }
+
+/*Remove that emojikipleur shit*/
 .dropdown--active .emoji-button img, .emoji-button:active img, .emoji-button:focus img, .emoji-button:hover img {
   content: url("https://s25.postimg.cc/clhks1c27/me_paragade.png");
 }
 .emoji-button img {
   content: url("https://s25.postimg.cc/clhks1c27/me_paragade.png");
+}
+.emoji-mart-anchor-selected:hover, .emoji-mart-anchor-selected {
+    color: #f98f5b;
+}
+.emoji-mart-anchor-bar {
+  background-color: #f98f5b;
 }
