@@ -6,7 +6,7 @@ Itself based on KindlyFire personal theme (https://gist.github.com/KindlyFire/f5
 
 Heavily modified and fixed by Vetra Nyx (@Vetra@extranet.palaven.space)
 
-Last update: 15 september 2018
+Last update: 16 september 2018
 
 
 DISCLAIMER:
@@ -396,10 +396,10 @@ body.app-body .column, body.app-body .column__wrapper {
 
 /*Remove that emojikipleur shit*/
 .dropdown--active .emoji-button img, .emoji-button:active img, .emoji-button:focus img, .emoji-button:hover img {
-content: url("https://s25.postimg.cc/clhks1c27/me_paragade.png");
+content: url("https://s25.postimg.cc/4h7o5llvz/blobpopcorn.png");
 }
 .emoji-button img {
-content: url("https://s25.postimg.cc/clhks1c27/me_paragade.png");
+content: url("https://s25.postimg.cc/4h7o5llvz/blobpopcorn.png");
 }
 .emoji-mart-anchor-selected:hover, .emoji-mart-anchor-selected {
   color: #a075ed;
